@@ -36,6 +36,17 @@
         button:hover {
             background-color: #005f73;
         }
+        /* Media Query für kleinere Bildschirme */
+        @media (max-width: 600px) {
+            .parameter {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .parameter button {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
